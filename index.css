@@ -23,13 +23,31 @@ time, mark, audio, video {
 padding-left: 25px;
 padding-right: 13px;
 padding-bottom:30px;
-    border: 50px solid transparent;
+    border: 70px solid transparent;
+    border-bottom: none;
     border-image: url('https://images.pond5.com/falling-musical-note-animation-rendering-footage-086258233_iconl.jpeg') 30 round;
     
 }
+header{
+  margin-top: -15%;
+}
+.headerNav{
+  text-align: center;
+  border:1px solid red;
+       color:black;
+       padding:10px;
+       display:inline-block;
+       background-color:royalblue;
+       width:80px;
+       border-radius:30px;
+       margin-top:-70%;
+}
+.headerNav:hover{
+  background-color:white;
+}
 body{
     margin-top:10%;
-    background-image:url('https://static.vecteezy.com/system/resources/previews/000/031/144/non_2x/modern-music-notes-vector-pack.jpg');
+    background-color: lightblue;
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
@@ -54,6 +72,12 @@ body{
        font-size:20px,
        
        
+     }
+     .about p{
+      
+       padding: 5%;
+       font-size: 30px;
+       font-family: Arial, Helvetica, sans-serif;
      }
      .container{
          display:flex;
@@ -82,3 +106,39 @@ body{
         color:red; 
         
      }
+     footer{
+       margin: 40% -10% 0 -9%;
+       padding-bottom: 3%;
+      
+     }
+     .footerP{
+       font-size: x-large;
+     }
+     form{
+       margin-left: 43%;
+       display: flex;
+       flex-direction: column;
+       
+     }
+     
+     label{
+       color:black;
+       
+     }
+     input{
+       width: 20%;
+     }
+     .comment{
+       margin-left: 40%;
+       display: flex;
+      
+     }
+     .commentP{
+       padding-bottom: 10%;
+       margin-left: 40%;
+     }
+     .subButton{
+       margin-left: 40%;
+       margin-top: 1%;
+     }
+    
